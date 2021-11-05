@@ -32,6 +32,10 @@ Material UI 4.12.3
 | ------------- |:-------------:|
 | postgres      | 123456     |
 
+(I didn't arrive to add the sql init files to create the database, so it's required to create a database named 'to-do')
+This can be done by accessing to adminer in http://localhost:8888/, after running the docker-compose, and once there, 
+to create that database using the user and the respective password.
+
 
 ## How to start the APP
 Run the bash script that exist in the root
